@@ -1,0 +1,36 @@
+.overlay {
+  background-color: rgba(21, 128, 0, 0.267);
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: none;
+}
+.popup {
+  background-color: white;
+  padding: 40px;
+  border: dashed 5px black;
+  position: relative;
+}
+.new-popup {
+  text-align: center;
+}
+.new-popup h1 {
+  font-size: 30px;
+}
+.new-popup button {
+  cursor: pointer;
+  font-size: 20px;
+  padding: 10px;
+}
+.colse-icon {
+  width: 30px;
+  cursor: pointer;
+  position: absolute;
+  right: 4px;
+  top: 4px;
+}
