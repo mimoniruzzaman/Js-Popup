@@ -11,3 +11,14 @@ overlay.addEventListener("click", () => {
 close.addEventListener("click", () => {
   overlay.style.display = "none";
 });
+
+// Same Work !
+document.getElementById("btn").addEventListener("click", () => {
+  document.querySelector(".overlay").style.display = "flex";
+});
+document.querySelector(".close-icon").addEventListener("click", () => {
+  document.querySelector(".overlay").style.display = "none";
+});
+document.querySelector(".overlay").addEventListener("click", () => {
+  document.querySelector(".overlay").style.display = "none";
+});
